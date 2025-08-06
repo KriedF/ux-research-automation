@@ -78,6 +78,4 @@
 
 ---
 
-*This repository demonstrates how Python automation can transform UX research from manual, time-intensive work into efficient, scalable insight generation - a key differentiator for senior research roles.*
-
-ork into efficient, scalable insight generation that drives business impact.
+*This repository demonstrates how Python automation can transform UX research from manual, time-intensive work into efficient, scalable insight generation - a key differentiator for senior researchers*
