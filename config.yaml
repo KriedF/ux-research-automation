@@ -1,1 +1,31 @@
+# UX Research Automation Configuration
 
+# Data Processing Settings
+data_processing:
+  default_satisfaction_threshold: 4  # Ratings >= 4 considered satisfied (5-point scale)
+  minimum_sample_size: 30           # Minimum responses for reliable analysis
+  confidence_level: 0.95            # Statistical confidence level
+  
+# Report Generation Settings  
+reports:
+  output_format: "html"             # Default report format
+  include_charts: true              # Generate visualizations
+  chart_style: "professional"      # Chart styling theme
+  
+# Analysis Settings
+analysis:
+  sentiment_threshold_positive: 0.1  # TextBlob polarity threshold for positive
+  sentiment_threshold_negative: -0.1 # TextBlob polarity threshold for negative
+  theme_minimum_frequency: 2         # Minimum keyword mentions for theme inclusion
+  
+# File Paths
+paths:
+  data_input: "data/"
+  reports_output: "reports/"  
+  charts_output: "charts/"
+  
+# Automation Settings
+automation:
+  auto_generate_charts: true
+  auto_save_results: true
+  verbose_logging: true
